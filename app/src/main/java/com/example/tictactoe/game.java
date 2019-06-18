@@ -127,7 +127,7 @@ public class game extends AppCompatActivity implements View.OnClickListener {
 
         for(int i=0;i<3;i++)
         {
-            if (field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0]) && field[0][2].equals(" ")) {
+            if (field[0][2].equals(field[1][1]) && field[0][2].equals(field[2][0]) && !field[0][2].equals(" ")) {
                 return true;
             }
 
